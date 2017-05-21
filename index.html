@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<!--<script type="text/javascript" src="assets/javascript/app.js"></script>-->
+
+<head>
+	<title>Trivia Game!</title>
+</head>
+<body>
+<div id="section">
+    <h1>Disney Trivia!</h1>
+    
+    <button class="btn">Start</button>
+</div>
+<div id="quiz">
+<br>
+<h3 id="timer">Remianing Time:</h3>
+<br>
+<p class="question">1. What are the names of the three good fairies from Sleeping Beauty?</p>
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Flora, Fauna, and Merryweather</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Coop, Jayson and Bryan</label><br/>
+<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Tinker Bell, Snoop Dogg and Fawn</label><br/>
+<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Orchid, Catan and Iridessa</label><br/>
+</ul>
+
+<p class="question">2. Who is the only Disney villain to never actually appear onscreen in their respective Disney film?
+
+</p>
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Prince</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">“Man” from Bambi</label><br/>
+<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"></label>Gaston<br/>
+<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Maleficent</label><br/>
+</ul>
+
+<p class="question">3. What are the names of the two eels who are Ursula’s sidekicks?
+
+</p>
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Beavis and Butthead</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Jane and Alex</label><br/>
+<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"></label>Bonnie and Clyde<br/>
+<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Flotsam and Jetsam</label><br/>
+</ul>
+
+<p class="question">4. Which Disney movie’s soundtrack featured Mel Gibson?
+
+</p>
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Cinderella</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">The Jungle Book</label><br/>
+<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Pocahontas</label><br/>
+<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Pinocchio</label><br/>
+</ul>
+<p class="question">5. Which voice actor sang “Beauty and the Beast” from the 1991 animated film of the same name?
+
+</p>
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Answer 1</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Answer 2</label><br/>
+<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Answer 3</label><br/>
+<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Angela Lansbury</label><br/>
+</ul>
+<br>
+ <button class="btnDone">Done</button>
+
+</div>
+
+<script>
+ $(document).ready(function() {
+   
+
+ 	var timer = 60;
+ 	var correctA = 0;
+ 	var wrongA = 0;
+ 	var unansweredQ =0;
+
+       
+ $(".btn").on("click", function() {
+   
+    $("#quiz").css("visibility", "visible");
+    $("#section").css("display", "none");
+
+       
+
+  });
+
+
+
+
+ });
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
