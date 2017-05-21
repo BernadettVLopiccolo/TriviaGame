@@ -6,7 +6,7 @@ body {
 }
 
 #section {
-    
+    position: fixed;
 	background-color: #FFEFCB;
 	height: 400px;
 	width: 70%;
@@ -50,13 +50,15 @@ h1 {
 
 
 }
-
+#endGame {
+	visibility: hidden;
+}
 
 
 .question {
 	font-size: 25px;
 }
 
-.answers {
+#answers {
 	font-size: 20px;
 }
