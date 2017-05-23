@@ -62,3 +62,13 @@ h1 {
 #answers {
 	font-size: 20px;
 }
+
+#endGame {
+   font-size: 20px;
+   background-color: #FFEFCB;
+   text-align: center;
+   width: 60%;
+   margin-left: 300px;
+
+
+} 
