@@ -38,6 +38,7 @@ h1 {
     width: 60%;
     margin-left: 300px;
 	visibility: hidden;
+
 }
 
 
@@ -47,6 +48,7 @@ h1 {
 	height: 80px;
 	margin-left: 80px;
     background-color: #4a62d8;
+    margin-bottom: 10px;
 
 
 }

@@ -72,7 +72,7 @@ $(document).ready(function() {
        
 
        var radioInput = $('input[name="q1"]:checked').val();
-       if(radioInput === "q1a") {
+       if(radioInput === "a") {
        	correctA++;
        	console.log("YES");
        
@@ -87,8 +87,8 @@ $(document).ready(function() {
       
        }
 
-       var radioInput2 = $('input[name="q2"]:checked').val();
-       if(radioInput2 === "q2b") {
+       var radioInput = $('input[name="q2"]:checked').val();
+       if(radioInput === "b") {
        	correctA++;
        	console.log("YES");
        
@@ -102,8 +102,8 @@ $(document).ready(function() {
       
        }
 
-       var radioInput3 = $('input[name="q3"]:checked').val();
-       if(radioInput3 === "q3d") {
+       var radioInput = $('input[name="q3"]:checked').val();
+       if(radioInput === "d") {
        	correctA++;
        	console.log("YES");
        
@@ -117,8 +117,8 @@ $(document).ready(function() {
       
        }
 
-       var radioInput4 = $('input[name="q4"]:checked').val();
-       if(radioInput4 === "q4c") {
+       var radioInput = $('input[name="q4"]:checked').val();
+       if(radioInput === "c") {
        	correctA++;
        	console.log("YES");
        
@@ -133,8 +133,8 @@ $(document).ready(function() {
        }
 
 
-      var radioInput5 = $('input[name="q5"]:checked').val();
-       if(radioInput5 === "q5d") {
+      var radioInput = $('input[name="q5"]:checked').val();
+       if(radioInput === "d") {
        	correctA++;
        	console.log("YES");
        
