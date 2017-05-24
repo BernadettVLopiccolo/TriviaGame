@@ -71,8 +71,8 @@ $(document).ready(function() {
        $("#endGame").css("visibility", "visible");
        
 
-       var radioInput = $('input[name="q1"]:checked').val();
-       if(radioInput === "a") {
+       var radioInput1 = $('input[name="q1"]:checked').val();
+       if(radioInput1 === "a") {
        	correctA++;
        	console.log("YES");
        
@@ -87,8 +87,8 @@ $(document).ready(function() {
       
        }
 
-       var radioInput = $('input[name="q2"]:checked').val();
-       if(radioInput === "b") {
+       var radioInput2 = $('input[name="q2"]:checked').val();
+       if(radioInput2 === "b") {
        	correctA++;
        	console.log("YES");
        
@@ -102,8 +102,8 @@ $(document).ready(function() {
       
        }
 
-       var radioInput = $('input[name="q3"]:checked').val();
-       if(radioInput === "d") {
+       var radioInput3 = $('input[name="q3"]:checked').val();
+       if(radioInput3 === "d") {
        	correctA++;
        	console.log("YES");
        
@@ -117,8 +117,8 @@ $(document).ready(function() {
       
        }
 
-       var radioInput = $('input[name="q4"]:checked').val();
-       if(radioInput === "c") {
+       var radioInput4 = $('input[name="q4"]:checked').val();
+       if(radioInput4 === "c") {
        	correctA++;
        	console.log("YES");
        
@@ -133,8 +133,8 @@ $(document).ready(function() {
        }
 
 
-      var radioInput = $('input[name="q5"]:checked').val();
-       if(radioInput === "d") {
+      var radioInput5 = $('input[name="q5"]:checked').val();
+       if(radioInput5 === "d") {
        	correctA++;
        	console.log("YES");
        
